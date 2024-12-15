@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0 auto 80px auto;
+  padding: 0 20px;
+}
+
+.container :global(.swiper-pagination-horizontal) {
+  top: 22rem;
+}
+
+.productTitle {
+  margin: 20px 0 0 0;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 6px;
+  color: var(--black-500);
+}
+
+.textLine {
+  width: 65px;
+  height: 0;
+  border: 2px solid var(--gray-200);
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 0 auto 40px auto;
+  }
+
+  .textLine {
+    margin-left: 20px;
+  }
+}

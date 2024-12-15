@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.containerLogo {
+  padding: 16px 0 24px 0;
+}
+
+.containerSearch {
+  width: 100%;
+}
+
+.containerForm {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.inputSearch {
+  width: 100%;
+  border: transparent;
+  background: transparent;
+  border-bottom: 1px solid var(--gray-400);
+  padding-bottom: 10px;
+  outline: transparent;
+}
+.inputSearch::placeholder {
+  font-size: 13px;
+  line-height: 18px;
+  color: #7a7a7a;
+}
+
+.buttonSearch {
+  position: absolute;
+  width: 100%;
+  max-width: 18px;
+  height: 18px;
+  border: transparent;
+  background: transparent;
+  cursor: pointer;
+  right: 0;
+}
+
+.shoppingBag {
+  position: relative;
+}
+
+.containerLinks a {
+  padding-right: 30px;
+}
+
+.cartCount {
+  background-color: var(--red-500);
+  color: var(--white);
+  border-radius: 50%;
+  padding: 2px 4px;
+  left: 1rem;
+  top: 30%;
+  position: absolute;
+  transform: translate(50%, -50%);
+
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+}

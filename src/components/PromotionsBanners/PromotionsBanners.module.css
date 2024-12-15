@@ -1,0 +1,43 @@
+.promotionsBanners {
+  position: relative;
+}
+
+.promotionsBannersImg {
+  width: 100%;
+}
+
+.promotionsBannersText {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.promotionsBannersTitle {
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.promotionsBannersSubTitle {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .promotionsBannersText {
+    top: 10%;
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+  .promotionsBannersText {
+    left: 10%;
+  }
+}
