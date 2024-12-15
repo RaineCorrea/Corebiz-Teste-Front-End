@@ -41,12 +41,12 @@ button {
   border: 5px solid #f8475f !important;
 }
 .swiper-button-prev {
-  background-image: url("./components/assets/svg/prev.svg");
+  background-image: url("../public/prev.svg");
   background-repeat: no-repeat;
 }
 
 .swiper-button-next {
-  background-image: url("./components/assets/svg/next.svg");
+  background-image: url("../public/next.svg");
   background-repeat: no-repeat;
 }
 .swiper-button-next::after,
