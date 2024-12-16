@@ -1,5 +1,5 @@
 import logo from "/logo-corebiz.svg";
-import iconSearch from "/iconShoppingCart.svg";
+import iconSearch from "/iconSearch.svg";
 import styles from "./HeaderMobile.module.css";
 import iconShoppingCart from "/iconShoppingCart.svg";
 import { MenuMobile } from "../../Menu/MenuMobile/MenuMobile";
